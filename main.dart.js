@@ -27698,23 +27698,22 @@ _.c=c
 _.d=null
 _.e=d},
 Vy:function Vy(){},
-Pe(a,b,c){return new A.Pd(b===!0,c,1,3,350,a!==!1,B.bZ,B.m,0,2.5,!1,3000,B.bw,B.dB,!1)},
-Pd:function Pd(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){var _=this
+Pe(a){return new A.Pd(a===!0,1,3,350,!0,B.bZ,B.m,0,2.5,!1,3000,B.bw,B.dB,!1)},
+Pd:function Pd(a,b,c,d,e,f,g,h,i,j,k,l,m,n){var _=this
 _.a=a
-_.c=b
-_.d=c
-_.f=d
-_.w=e
-_.x=f
-_.y=g
-_.z=h
-_.Q=i
-_.ax=j
-_.ay=k
-_.ch=l
-_.CW=m
-_.cx=n
-_.cy=o
+_.d=b
+_.f=c
+_.w=d
+_.x=e
+_.y=f
+_.z=g
+_.Q=h
+_.ax=i
+_.ay=j
+_.ch=k
+_.CW=l
+_.cx=m
+_.cy=n
 _.db=null},
 ae5:function ae5(a){this.a=a
 this.b=$},
@@ -84468,8 +84467,8 @@ aog(){var s,r,q=this
 J.Zv(q.fx,new A.akK())
 s=J.aDW(q.fx,new A.akL())
 q.fy=s===-1?0:B.c.S((1000-s)/10)
-q.dy=15
-r=q.db=J.W(q.fx,145)
+q.dy=11
+r=q.db=J.W(q.fx,105)
 r=r==null?null:r.a
 q.cy=r==null?A.b([],t.BY):r
 $.ap.fy$.push(new A.akM(q))},
@@ -84521,24 +84520,24 @@ k=A.bB(A.iP(1000,p,0,A.mD(a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,
 p=A.bB(A.fi(A.b([A.kI(A.arS(A.avn(B.T9,new A.akw(a),A.aqL(a0,a0,B.hg,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)),"Calculate using fixed investment return")),B.Ox,A.kI(A.arS(A.avn(B.Tb,new A.akx(a),A.aqL(a0,a0,B.eq,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)),"Explore different sequences of returns"))],a5),B.R,B.cA,B.a2,a0),a0,340)
 j=a.Xc()
 if(J.h7(a.fx))i=B.kN
-else{h=A.Pe(!1,!0,"")
+else{h=A.Pe(!0)
 i=A.Hy("Sequences of returns (from the worst to the best, click vertical bar to select the sequence)")
 i=A.he(A.b([A.bB(A.bB(A.NF(!1,B.e7,0,A.Ht(B.em),A.Lm(B.ck,a3,B.en),B.bZ,B.xW,a.a6B(),i,h),600,a0),a0,a2)],a5),B.R,B.X,B.a2)}g=a.Xv(a.cy)
 f=a.cy
 if(f.length===0)f=B.kN
-else{h=A.Pe(!1,!0,"")
+else{h=A.Pe(!0)
 e=A.Hy("Taxes and After Taxes Income")
 e=A.bB(A.NF(a0,B.e7,0,A.Ht(B.em),A.Lm(B.ck,a3,B.en),a0,a0,a.a6V(f),e,h),a0,a2)
 f=a.cy
-h=A.Pe(!1,!0,"")
+h=A.Pe(!0)
 d=A.Hy("Income sources")
 d=A.bB(A.NF(a0,B.e7,0,A.Ht(B.em),A.Lm(B.ck,a3,B.en),a0,a0,a.a6U(f),d,h),a0,a2)
 f=a.cy
-h=A.Pe(!1,!0,"")
+h=A.Pe(!0)
 c=A.Hy("Balance")
 c=A.bB(A.NF(a0,B.e7,0,A.Ht(B.em),A.Lm(B.ck,a3,B.en),a0,a0,a.a6A(f),c,h),a0,a2)
 f=a.cy
-h=A.Pe(!1,!0,"")
+h=A.Pe(!0)
 b=A.Hy("Investment return (adjusted to inflation, "+(a.dx?"simulation":"fixed")+")")
 b=A.he(A.b([e,d,c,A.bB(A.NF(a0,B.e7,0,A.Ht(B.em),A.Lm(B.ck,"{value}%",B.en),a0,a0,a.a74(f),b,h),a0,a2),B.OB,new A.Ad(a.cy,a0)],a5),B.R,B.X,B.a2)
 f=b}return new A.Ag(new A.ws(a4,a6,!0,new A.Uw(a0,a0,1/0,56),a0),A.iN(new A.bT(B.ab,A.he(A.b([B.OA,new A.bT(B.ab,a7,a0),s,r,q,new A.bT(B.ab,a8,a0),new A.bT(B.ab,o,a0),new A.bT(B.ab,n,a0),new A.bT(B.ab,m,a0),new A.bT(B.ab,l,a0),new A.bT(B.ab,k,a0),B.EK,p,B.EM,j,i,g,f],a5),B.R,B.X,B.a2),a0),a0,a0,B.ap),a0)},
@@ -84644,7 +84643,7 @@ p=p.ac}m.Q=p
 p=p.a
 p===$&&A.a()
 p=p.d
-if(p!=null)p.XH(14,0)}return A.a2(null,r)}})
+if(p!=null)p.XH(10,0)}return A.a2(null,r)}})
 return A.a3($async$$1,r)},
 $S:167}
 A.akN.prototype={
@@ -89647,7 +89646,7 @@ h=i.p2
 h.toString
 g=B.e.S(n.ch)
 p.c.a.toString
-p=new A.AK(m,i.cy,i.db,n.z,d,n.c,n.d,h,n.f,d,n.w,B.G4,n.x,n.Q,n.ax,!1,g,n.CW,d,new A.bH(d,t.R))
+p=new A.AK(m,i.cy,i.db,n.z,d,d,n.d,h,n.f,d,n.w,B.G4,!0,n.Q,n.ax,!1,g,n.CW,d,new A.bH(d,t.R))
 q.b=p
 j.k4.push(p)}q=c.a.c
 q.c.a.toString
@@ -97472,9 +97471,7 @@ i(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
 if(J.I(b)!==A.l(r))return!1
-if(b instanceof A.Pd)if(b.y===r.y)if(b.w===r.w)if(b.a===r.a)if(b.d===r.d)if(b.z.i(0,r.z))if(b.Q===r.Q)if(b.ch===r.ch)if(b.ax===r.ax)if(b.x===r.x)if(b.CW===r.CW)if(b.f===r.f)if(b.cx===r.cx)if(b.c==r.c)s=!0
-else s=!1
-else s=!1
+if(b instanceof A.Pd)if(b.y===r.y)if(b.w===r.w)if(b.a===r.a)if(b.d===r.d)if(b.z.i(0,r.z))if(b.Q===r.Q)if(b.ch===r.ch)if(b.ax===r.ax)if(b.CW===r.CW)if(b.f===r.f)if(b.cx===r.cx)s=!0
 else s=!1
 else s=!1
 else s=!1
@@ -97489,7 +97486,7 @@ else s=!1
 else s=!1
 return s},
 gA(a){var s=this
-return A.at([null,s.y,s.w,s.a,s.d,s.z,s.Q,s.ch,!1,s.ax,s.x,s.CW,s.f,s.cx,!1,null,s.c,null,null,null])},
+return A.at([null,s.y,s.w,s.a,s.d,s.z,s.Q,s.ch,!1,s.ax,!0,s.CW,s.f,s.cx,!1,null,null,null,null,null])},
 w3(a,b){var s=this.db
 if(s!=null){s=s.d
 s===$&&A.a()
@@ -97952,15 +97949,14 @@ m=h.gbI()
 m=m==null?g:m.r
 m.toString
 m.sHl(f.e.b)
-m=s.a
-m.toString
-i=m.p1.c
-if(i==null){m=f.d
+s.a.toString
+m=f.d
 m.toString
 if(m){m=f.b
 k=J.Z(m)
 m=k.h(m,J.eF(k.gt(m),2))}else m=h.at.glA().y2
-i=m}m=i==null?"":i
+i=m
+m=i==null?"":i
 h.go=m
 k=e.d
 k===$&&A.a()
@@ -98858,7 +98854,8 @@ h8(){return this.nN(null)},
 aW(){var s,r,q=this
 q.e=!1
 s=q.a
-q.f=s.ax
+s.toString
+q.f=!0
 s=A.bD(null,A.bA(0,0,0,s.as,0,0),null,null,q)
 s.bt()
 r=s.cB$
@@ -99038,10 +99035,9 @@ if(q!=null)if(a8.dB!=null)o=a8.bR!==""||a8.bM!==""
 else o=!1
 else o=!1
 if(o){o=a8.q
-n=o.a
-n.toString
-if(n.ax){o=o.f
-o===$&&A.a()}else o=!1
+o.a.toString
+o=o.f
+o===$&&A.a()
 if(o){a8.cd=5
 f=17}else f=15
 q.toString
@@ -99320,11 +99316,10 @@ g===$&&A.a()
 a6.a5f(a8,b0,h,p,f,g,l,e)}else{a8.toString
 h.toString
 a6.CN(a8,b0,h,a6.Nd(e,l,d),f,d)}a8=a6.q
-p=a8.a
-p.toString
-if(p.ax){a8=a8.f
+a8.a.toString
+a8=a8.f
 a8===$&&A.a()
-a8=a8&&a6.c8.length!==0}else a8=!1
+a8=a8&&a6.c8.length!==0
 if(a8)if(a6.c8.length===1){a8=a6.cd
 a8===$&&A.a()
 a6.M9(a6.MQ(e,a8,l),b0,a9,0)}else{a1=a6.bR.split("\n")
