@@ -84620,7 +84620,7 @@ a7_(a){var s=2500,r=null,q=t.sm,p=t.N
 return A.b([A.ph(r,s,B.hh,A.b([8,8],t.n),a,r,"Target",3,r,new A.ajN(),r,new A.ajO(this),q,p),A.fo(s,B.S,2,B.tN,a,r,"RRSP/RRIF",r,new A.ajP(),new A.ajR(),q,p),A.fo(s,B.S,2,B.ka,a,r,"CPP",r,new A.ajS(),new A.ajT(),q,p),A.fo(s,B.S,2,B.eq,a,r,"OAS",r,new A.ajU(),new A.ajV(),q,p),A.fo(s,B.S,2,B.k9,a,r,"TFSA",r,new A.ajW(),new A.ajX(),q,p),A.fo(s,B.S,2,B.hg,a,r,"Unreg",r,new A.ajY(),new A.ajQ(),q,p)],t.h7)},
 a6G(a){var s=t.sm,r=t.N
 return A.b([A.fo(2500,B.S,2,B.k9,a,!0,"TFSA Balance",null,new A.ajr(),new A.ajs(),s,r),A.fo(2500,B.S,2,B.hg,a,!0,"Unreg Balance",null,new A.ajt(),new A.aju(),s,r),A.fo(2500,B.S,2,B.tN,a,!0,"RRSP/RRIF Balance",null,new A.ajv(),new A.ajw(),s,r)],t.h7)},
-a3_(){var s=A.Pd(!0),r=A.Hx("Sequences of returns (from the worst to the best, click vertical bar to select the sequence)")
+a3_(){var s=A.Pd(!0),r=A.Hx("Sequences of returns (from the least favorable to the best, click vertical bar to select the sequence)")
 return A.bH(A.NE(!1,B.e7,new A.ajq(this),0,A.Hs(B.em),A.Ll(B.cj,"${value}K",B.en),B.cM,B.xX,this.a6H(),r,s),600,null)},
 a6H(){var s,r,q,p=this,o=2500,n=p.p1
 n===$&&A.a()
