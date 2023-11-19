@@ -84642,7 +84642,8 @@ q=r===!0?n.kT("Your required income is achievable!",""):n.kT("You can have requi
 p=B.b.ga1(a)
 s=A.b([B.eX],t.p)
 if(J.h8(n.fx)){r=n.dy
-s.push(A.mo(A.bz("These or better results are achieved with confidence of: "+(101-r)+"%",m,m,m,m,A.dj(m,m,B.es,m,m,m,m,m,"Times",m,m,18,m,m,B.az,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),m,m))}if(J.h8(n.fx))s.push(B.eX)
+o=r<60?"Conservative r":"R"
+s.push(A.mo(A.bz(o+"etirement estimates with "+(101-r)+"% confidence",m,m,m,m,A.dj(m,m,B.es,m,m,m,m,m,"Times",m,m,18,m,m,B.az,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),m,m))}if(J.h8(n.fx))s.push(B.eX)
 s.push(q)
 s.push(B.EN)
 s.push(B.eX)
