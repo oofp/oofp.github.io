@@ -24105,104 +24105,103 @@ _.e=d},
 a8q:function a8q(a,b,c){this.b=a
 this.c=b
 this.d=c},
-auL(d1,d2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0=$.atC()
-if(d1!==d0.c){d0.c=d1
-d0.Se()}d0=t.BY
-s=new A.ha(A.b([],d0))
-d0=A.b([],d0)
-s.d=d0
-r=d2.f
-q=d2.w
+auL(d0,d1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9=$.atC()
+if(d0!==c9.c){c9.c=d0
+c9.Se()}c9=t.BY
+s=new A.ha(A.b([],c9))
+c9=A.b([],c9)
+s.d=c9
+r=d1.f
+q=d1.w
 if(q<65)r-=B.c.S(0.072*(65-q)*r)
 else if(q>65)r+=B.c.S(0.084*(q-65)*r)
-p=d2.r
-q=d2.x
+p=d1.r
+q=d1.x
 if(q>65)p+=B.c.S(0.072*(q-65)*p)
 o=B.c.S(p*1.1)
-n=s.a=d2.c
-m=d2.d
+n=s.a=d1.c
+m=d1.d
 s.b=m
-l=s.c=d2.e
-k=A.auM(d2.y,60)
-j=A.auM(d2.y,65)
-q=d2.at
+l=s.c=d1.e
+k=A.auM(d1.y,60)
+j=A.auM(d1.y,65)
+q=d1.at
 i=B.c.aH(k*q/100)
 h=B.c.aH(j*q/100)
-q=d2.Q/100
+q=d1.Q/100
 g=q+1
 f=0.04+0.5*Math.sqrt(q)
-for(e=d2.a,d=d2.z,c=r*12,b=q===0,a=0,a0=0,a1=0,a2=0,a3=0,a4=0,a5=0,a6=1;a7=d2.b,e<=a7;++e){a8=e<d2.w?0:c
-if(e<d2.x)a9=0
-else a9=(e<75?p:o)*12
-b0=a8+a9
-a7=e>=65
-b1=a7?j:k
-b2=a7?h:i
-b3=b1>b0?Math.min(b1-b0,b2):0
-b4=Math.min(b3,n)
-if(e>=d){b5=B.c.S(A.aIA(e)*n)
-if(b5>b4)b4=b5}a7=b4+b0
-b6=B.c.S(A.Zc(d1,a7,e))
-b7=a7-b6
-b8=d2.y
-b9=a6<0?0:(a6-1)/a6
-c0=A.aOC(e,b9,b6,a7,a7,d1,b8,b8-b7,l)
-c1=c0.b
-c2=c0.c
-c3=c0.d
-b7=c3==null?b7+c1:c3
-c4=c0.e
-b6=c4==null?b6:c4
-a7=d2.y
-c5=a7-b7
-if(c5>0)if(c5<m)c6=c5
-else{c7=A.aOA(e,b0,d1,a7-m,n,b4,c2,c1)
-b4=c7.b
-b6=c7.c
-b7=c7.d
-c6=m}else c6=0
-c8=b7+c6
-if(d2.ax)if(b)g=1
-else{a7=$.aDk()
-g=1+Math.min(Math.max(q+f*(Math.sqrt(-2*Math.log(a7.HP()))*Math.cos(6.283185307179586*a7.HP())),-0.8),0.95)}n=B.c.S((n-b4)*g)
-m=B.c.S((m-c6)*g)
-l=B.c.S((l-c1)*g)
+for(e=d1.a,d=d1.z,c=r*12,b=0,a=0,a0=0,a1=0,a2=0,a3=0,a4=0,a5=1;a6=d1.b,e<=a6;++e){a7=e<d1.w?0:c
+if(e<d1.x)a8=0
+else a8=(e<75?p:o)*12
+a9=a7+a8
+a6=e>=65
+b0=a6?j:k
+b1=a6?h:i
+b2=b0>a9?Math.min(b0-a9,b1):0
+b3=Math.min(b2,n)
+if(e>=d){b4=B.c.S(A.aIA(e)*n)
+if(b4>b3)b3=b4}a6=b3+a9
+b5=B.c.S(A.Zc(d0,a6,e))
+b6=a6-b5
+b7=d1.y
+b8=a5<0?0:(a5-1)/a5
+b9=A.aOC(e,b8,b5,a6,a6,d0,b7,b7-b6,l)
+c0=b9.b
+c1=b9.c
+c2=b9.d
+b6=c2==null?b6+c0:c2
+c3=b9.e
+b5=c3==null?b5:c3
+a6=d1.y
+c4=a6-b6
+if(c4>0)if(c4<m)c5=c4
+else{c6=A.aOA(e,a9,d0,a6-m,n,b3,c1,c0)
+b3=c6.b
+b5=c6.c
+b6=c6.d
+c5=m}else c5=0
+c7=b6+c5
+if(d1.ax){a6=$.aDk()
+g=1+Math.min(Math.max(q+f*(Math.sqrt(-2*Math.log(a6.HP()))*Math.cos(6.283185307179586*a6.HP())),-0.8),0.95)}n=B.c.S((n-b3)*g)
+m=B.c.S((m-c5)*g)
+l=B.c.S((l-c0)*g)
 n=B.c.S(n*g)
 m=B.c.S(m*g)
 l=B.c.S(l*g)
-a+=b6
-a2+=c2
+b+=b5
+a1+=c1
+a+=a7
 a0+=a8
-a1+=a9
-a3+=b4
-a4+=c6
-a5+=c1
-a6*=g
-c9=new A.f1()
-c9.a=e
-c9.b=c6
-c9.c=c1
-c9.y=c2
-c9.z=c8
-c9.x=b6
-if(e<d){c9.d=b4
-c9.at=n}else{c9.e=b4
-c9.ax=n}c9.Q=m
-c9.as=l
-c9.CW=a
-c9.go=a2
-c9.w=b4+b0
-c9.ay=a8
-c9.ch=a9
-c9.cx=a0
-c9.cy=a1
-c9.db=a3
-c9.dx=a4
-c9.dy=a5
-c9.id=g
-c9.k1=a6
-if(c8>=d2.y)s.w=e
-d0.push(c9)}s.x=a7===s.w
+a2+=b3
+a3+=c5
+a4+=c0
+a5*=g
+c8=new A.f1()
+c8.a=e
+c8.b=c5
+c8.c=c0
+c8.y=c1
+c8.z=c7
+c8.x=b5
+if(e<d){c8.d=b3
+c8.at=n}else{c8.e=b3
+c8.ax=n}c8.Q=m
+c8.as=l
+c8.CW=b
+c8.go=a1
+c8.w=b3+a9
+c8.ay=a7
+c8.ch=a8
+c8.cx=a
+c8.cy=a0
+c8.db=a2
+c8.dx=a3
+c8.dy=a4
+c8.id=g
+c8.k1=a5
+if(c7>=d1.y)s.w=e
+c9.push(c8)}s.x=a6===s.w
 return s},
 auM(a,b){var s=$.atC(),r=(b<65?s.a:s.b).h(0,a)
 return a+B.c.S(r==null?62e3:r)},
@@ -84627,7 +84626,7 @@ Xg(){var s,r,q,p,o,n,m=this,l="Times",k=null
 if(J.h7(m.fx))return B.kM
 s=m.k2
 r=t.p
-s=A.he(A.b([B.eX,A.mn(A.bz("Success rate: "+s+"%",k,k,k,k,A.dj(k,k,m.Xy(s),k,k,k,k,k,l,k,k,18,k,k,B.az,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),k,k)],r),B.R,B.X,B.a2)
+s=A.he(A.b([B.eX,A.mn(A.bz("Your retirement income is secure with a confidence level of "+s+"%",k,k,k,k,A.dj(k,k,m.Xy(s),k,k,k,k,k,l,k,k,18,k,k,B.az,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),k,k)],r),B.R,B.X,B.a2)
 q=m.k2
 p=t.iO
 q=A.awZ(!0,360,101,A.b([new A.Lf(B.Gm,0.7,5,q,k)],p),0.79,A.b([A.y_(B.mt,16.665,0.45,B.b0,0,0.45),A.y_(B.mw,33.332,0.45,B.b0,16.666,0.45),A.y_(B.mx,49.999,0.45,B.b0,33.333,0.45),A.y_(B.my,66.665,0.45,B.b0,50,0.45),A.y_(B.mo,83.332,0.45,B.b0,66.666,0.45),A.y_(B.ml,101,0.45,B.b0,83.333,0.45)],t.WL),!1,!1,!1,180)
