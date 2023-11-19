@@ -84602,7 +84602,7 @@ p=A.by(A.fi(A.b([A.kK(A.as3(A.avz(B.T9,new A.akJ(a),A.aqX(a0,a0,B.et,a0,a0,a0,a0
 j=a.Xg()
 if(J.h7(a.fx))i=B.kM
 else{h=A.BV(!0)
-i=A.wU("Asset depeleting/growth simulation")
+i=A.wU("Assets depleting/growth simulation")
 i=A.he(A.b([A.by(A.by(A.AK(a0,B.d7,a0,0,A.wR(B.dd),A.zc(B.c0,a3,B.de,a.k1/1000,!0),a0,a0,a.a6F(),i,h),600,a0),a0,a2),A.by(a.a3_(),a0,a2)],a6),B.R,B.X,B.a2)}g=a.Xz(a.cy)
 f=a.cy
 if(f.length===0)f=B.kM
