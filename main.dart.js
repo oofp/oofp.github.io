@@ -84672,7 +84672,7 @@ p=A.bz(A.fj(A.b([A.kJ(A.as6(A.avC(B.Ta,new A.akM(a),A.ar_(a0,a0,B.hm,a0,a0,a0,a0
 j=a.Xg()
 if(J.h8(a.fx))i=B.kR
 else{h=A.BX(!0)
-i=A.wX("Asset simulation")
+i=A.wX("Asset depeleting/growth simulation")
 i=A.hf(A.b([A.bz(A.bz(A.AM(a0,B.d6,a0,0,A.wU(B.dc),A.ze(B.c_,"${value}K",B.dd,!0),a0,a0,a.a6F(),i,h),600,a0),a0,a2),A.bz(a.a3_(),a0,a2)],a5),B.R,B.X,B.a2)}g=a.Xz(a.cy)
 f=a.cy
 if(f.length===0)f=B.kR
