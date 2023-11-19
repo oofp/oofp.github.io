@@ -84611,16 +84611,16 @@ p=q.a+q.c+q.b
 s.push(new A.f0(J.S(h.fx,49).d[0].a-1,p,p))
 g.push(new A.f0(J.S(h.fx,49).d[0].a-1,p,p))
 r.push(new A.f0(J.S(h.fx,49).d[0].a-1,p,p))
-for(o=0;o<J.S(h.fx,49).d.length;++o){for(n=0,m=0,l=0,k=0,j=0,i=-20;i<20;++i){q=J.S(h.fx,49+i).d[o]
-n+=(q.at+q.ax+q.as+q.Q)/40
+for(o=0;o<J.S(h.fx,49).d.length;++o){for(n=0,m=0,l=0,k=0,j=0,i=-10;i<10;++i){q=J.S(h.fx,49+i).d[o]
+n+=(q.at+q.ax+q.as+q.Q)/20
 q=J.S(h.fx,249+i).d[o]
-m+=(q.at+q.ax+q.as+q.Q)/40
+m+=(q.at+q.ax+q.as+q.Q)/20
 q=J.S(h.fx,499+i).d[o]
-l+=(q.at+q.ax+q.as+q.Q)/40
+l+=(q.at+q.ax+q.as+q.Q)/20
 q=J.S(h.fx,749+i).d[o]
-k+=(q.at+q.ax+q.as+q.Q)/40
+k+=(q.at+q.ax+q.as+q.Q)/20
 q=J.S(h.fx,949+i).d[o]
-j+=(q.at+q.ax+q.as+q.Q)/40}s.push(new A.f0(J.S(h.fx,49).d[o].a,n,j))
+j+=(q.at+q.ax+q.as+q.Q)/20}s.push(new A.f0(J.S(h.fx,49).d[o].a,n,j))
 g.push(new A.f0(J.S(h.fx,49).d[o].a,m,k))
 r.push(new A.f0(J.S(h.fx,49).d[o].a,l,l))}},
 vd(){var s=0,r=A.a4(t.VF),q,p=this,o,n
@@ -84672,7 +84672,7 @@ p=A.bz(A.fj(A.b([A.kJ(A.as6(A.avC(B.Ta,new A.akM(a),A.ar_(a0,a0,B.hm,a0,a0,a0,a0
 j=a.Xg()
 if(J.h8(a.fx))i=B.kR
 else{h=A.BX(!0)
-i=A.wX("Asset simulation)")
+i=A.wX("Asset simulation")
 i=A.hf(A.b([A.bz(A.bz(A.AM(a0,B.d6,a0,0,A.wU(B.dc),A.ze(B.c_,"${value}K",B.dd,!0),a0,a0,a.a6F(),i,h),600,a0),a0,a2),A.bz(a.a3_(),a0,a2)],a5),B.R,B.X,B.a2)}g=a.Xz(a.cy)
 f=a.cy
 if(f.length===0)f=B.kR
