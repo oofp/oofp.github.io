@@ -86000,7 +86000,7 @@ A.wD().cL(new A.amf(r),t.GN)},
 th(){var s=0,r=A.a0(t.z),q=this,p,o,n
 var $async$th=A.a1(function(a,b){if(a===1)return A.Y(b,r)
 while(true)switch(s){case 0:o=t.z
-n=A.Y7(null,"our.email@gmail.com",A.aA(["subject","MayRetire feedback"],t.N,o),"mailto")
+n=A.Y7(null,"support@mayretire.com",A.aA(["subject","MayRetire_feedback"],t.N,o),"mailto")
 s=5
 return A.ab(A.aum(n),$async$th)
 case 5:s=b?2:4
@@ -86014,7 +86014,7 @@ p.toString
 A.aD5(new A.alC(),p,o)
 case 3:return A.Z(null,r)}})
 return A.a_($async$th,r)},
-W(a){var s,r,q,p,o,n=this,m=null,l=5000,k=1280,j="${value}K",i="{value}K",h=A.bm(n.a.c,m,m,m,m,m,m,m,m),g=t.p,f=A.b([A.Ks(m,m,A.asy(B.Gg,m),m,n.gabw(),m,"Send Feedback"),A.Ks(m,m,B.Gr,20,new A.alV(a),m,m)],g),e=A.b([],g)
+W(a){var s,r,q,p,o,n=this,m=null,l=5000,k=1280,j="${value}K",i="{value}K",h=A.bm(n.a.c,m,m,m,m,m,m,m,m),g=t.p,f=A.b([A.Ks(m,m,A.asy(B.Gg,m),m,n.gabw(),m,"Send Feedback to support@mayretire.com"),A.Ks(m,m,B.Gr,20,new A.alV(a),m,m)],g),e=A.b([],g)
 if(n.R8)e.push(new A.HY(new A.bF(new A.ak(8,8,8,8),A.bf(A.eu(A.b([A.jD(A.bm("Welcome to our Free Retirement Calculator for Canadians.\nYour privacy is assured; all data and calculations are local.\nFor inquiries, reach us at support@mayretire.com",m,m,m,m,A.dd(m,m,m,m,m,m,m,m,m,m,m,14,m,m,m,m,2,!0,m,m,m,m,m,m,m,m),m,m,m)),A.Ks(m,m,A.asy(B.Gf,m),m,new A.alW(n),m,m)],g),B.H,B.bK,B.U,m),m,440),m),m))
 e.push(B.Pe)
 e.push(new A.bF(B.a9,A.bf(A.axv(m,new A.rP($.aFu(),n.dx,new A.alX(n,a),!0,m,t.Af),B.Gu,!1,!1,!1,!1,m,m),m,340),m))
@@ -86121,7 +86121,7 @@ a7I(a){var s=2500,r=null,q=t.sm,p=t.N,o=A.b([A.fm(r,s,B.dp,A.b([8,8],t.n),a,r,"T
 if(B.b.ga_(a).w>0)o.push(A.fm(r,s,B.u1,r,a,B.aW,"OAS Clawback",3,r,new A.aln(),r,new A.alo(),q,p))
 return o},
 a3U(a){var s=this,r=null,q=A.v1(!0),p=s.xr,o=t.S,n=t.p
-o=A.ix(A.bf(A.eu(A.b([new A.eE(1,B.cx,A.L0(A.MW(p,new A.akq(s),0,o),B.TQ),r),new A.eE(1,B.cx,A.L0(A.MW(p,new A.akr(s),1,o),B.TV),r)],n),B.H,B.bK,B.bL,r),r,600),r,r)
+o=A.ix(A.bf(A.eu(A.b([new A.eE(1,B.cx,A.L0(A.MW(p,new A.akq(s),0,o),B.TP),r),new A.eE(1,B.cx,A.L0(A.MW(p,new A.akr(s),1,o),B.TV),r)],n),B.H,B.bK,B.bL,r),r,600),r,r)
 p=A.ro("Investment return (adjusted to inflation, "+(s.fy?"simulation":"fixed")+")")
 return A.eQ(A.b([o,A.bf(A.uB(r,B.cA,r,0,A.rm(r,B.cI,r),A.tO(B.bU,"{value}%",B.cJ,r,r,r,r),r,r,s.a7T(a),p,q),600,r)],n),B.H,B.T,B.U)},
 a7T(a){var s=this,r=2500,q=null,p=t.sm,o=t.N,n=A.b([A.fm(q,r,B.L,q,a,B.hv,"Base line",2,q,new A.alr(),q,new A.als(),p,o)],t.mZ)
@@ -86244,7 +86244,7 @@ s.db=r.as
 return null},
 $S:0}
 A.alC.prototype={
-$1(a){return A.avY(A.b([A.azg(B.U3,new A.alB(a),null)],t.p),B.TS,B.FI,null,B.TP,null)},
+$1(a){return A.avY(A.b([A.azg(B.U3,new A.alB(a),null)],t.p),B.TS,B.FI,null,B.TR,null)},
 $S:474}
 A.alB.prototype={
 $0(){A.n7(this.a,!1).eO()},
@@ -107313,7 +107313,7 @@ B.cf=new A.yv(2,"translucent")
 B.Gb=new A.ph(null)
 B.Gd=new A.fS(57490,!0)
 B.Gf=new A.fS(57706,!1)
-B.Gg=new A.fS(57952,!1)
+B.Gg=new A.fS(57898,!1)
 B.Gi=new A.fS(58332,!1)
 B.K=new A.o(3707764736)
 B.Gm=new A.di(null,null,null,null,null,B.K,null,null)
@@ -107337,9 +107337,9 @@ B.lW=new A.bt(B.p,1,B.V,-1)
 B.uo=new A.iN(4,B.dZ,B.lW)
 B.Gu=new A.jJ(null,null,null,"Province or territory",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.n4,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.uo,!0,null,null,null)
 B.Gv=new A.jJ(null,null,null,"Unreg Investment at start of retirerment",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.TR=new A.dA("Less risk",null,null,null,null,null,null,null,null,null,null)
+B.TQ=new A.dA("Less risk",null,null,null,null,null,null,null,null,null,null)
 B.TW=new A.dA("More risk",null,null,null,null,null,null,null,null,null,null)
-B.Gw=new A.jJ(null,null,null,"Average investment return (%0-6, adjusted to inflation)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,B.TR,null,null,null,null,B.TW,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Gw=new A.jJ(null,null,null,"Average investment return (%0-6, adjusted to inflation)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,B.TQ,null,null,null,null,B.TW,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.TZ=new A.dA("Slower",null,null,null,null,null,null,null,null,null,null)
 B.TY=new A.dA("Faster",null,null,null,null,null,null,null,null,null,null)
 B.Gx=new A.jJ(null,null,null,"RRSP withdrawal rate (0-100)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,B.TZ,null,null,null,null,B.TY,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
@@ -109411,8 +109411,8 @@ B.T0=new A.y(!0,B.j,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.SE=new A.y(!0,B.j,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.TN=new A.dI(B.Sm,B.Tw,B.Tf,B.R8,B.T9,B.Sj,B.TA,B.Rv,B.S0,B.T3,B.R1,B.Th,B.T7,B.T0,B.SE)
 B.TO=new A.dA("Calculate",null,null,null,null,null,null,null,null,null,null)
-B.TP=new A.dA("Send Feedback to support@mayretire.com",null,null,null,null,null,null,null,null,null,null)
-B.TQ=new A.dA("Total return",null,null,null,null,null,null,null,null,null,null)
+B.TP=new A.dA("Total return",null,null,null,null,null,null,null,null,null,null)
+B.TR=new A.dA("Send Feedback",null,null,null,null,null,null,null,null,null,null)
 B.TS=new A.dA("Please kindly send us your feedback to support@mayretire.com. Your input is greatly appreciated!",null,null,null,null,null,null,null,null,null,null)
 B.Qz=new A.y(!0,null,null,null,null,null,16,null,null,null,null,null,1.55,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.TT=new A.dA("\u2022",null,B.Qz,null,null,null,null,null,null,null,null)
