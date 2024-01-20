@@ -88320,7 +88320,7 @@ s=m.p1?k:"fixed"
 r.push(m.hX("Compound total return (adjusted to inflation, "+s+"):",A.k(A.eN(B.c.a2((p.p3-1)*100,2)))+"%"))
 r.push(A.azn(20))
 return A.ds(r,B.H,B.N,B.K)},
-YN(){return A.b3(new A.BL(1,100,101-this.p2,new A.aoo(this),20,4,!0,!0,new A.aop(),null),null,600)},
+YN(){return A.b3(new A.BL(0,100,101-this.p2,new A.aoo(this),20,4,!0,!0,new A.aop(),null),null,600)},
 hX(a,b){var s=null
 return A.dP(A.b([A.b3(A.ch(a,s,s,s,s,s,B.e7,s,s),s,250),B.Rr,A.b3(A.ch(b,s,s,s,s,s,B.e7,s,s),s,80)],t.p),B.H,B.bo,B.K,s)},
 a91(a){var s=2500,r=null,q=t.n,p=t.sm,o=t.N,n=A.b([A.ii(r,s,B.f2,A.b([8,8],q),a,r,"Target",3,r,new A.an8(),r,new A.an9(this),p,o)],t.mZ)
@@ -88733,7 +88733,7 @@ $1(a){var s=this.a
 s.av(new A.aon(s,a))},
 $S:28}
 A.aon.prototype={
-$0(){this.a.Yk(101-B.c.T(A.hw(this.b)))},
+$0(){this.a.Yk(101-Math.max(1,B.c.T(A.hw(this.b))))},
 $S:0}
 A.an8.prototype={
 $2(a,b){return B.e.k(a.a)},
