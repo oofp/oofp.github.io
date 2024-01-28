@@ -91127,7 +91127,7 @@ o.toString
 n=A.aO(A.ka(g,A.L1(!0,$.aLA(),new A.aqE(h,b0),h.fx,t.N),B.K5,!1,!1,!1,!1,g,g),g,160)
 m=$.c6().h(0,"retirementStatus")
 m.toString
-p.push(A.dU(A.b([new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,n,g),o,"Province or territory",g,g),g),new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.L1(!0,$.aY7,new A.aqF(h,b0),$.ey,t.PE),B.Km,!1,!1,!1,!1,g,g),g,160),g),m,"Retirement status",g,g),g)],r),B.H,B.bx,B.K,g))
+p.push(A.dU(A.b([new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,n,g),o,"Province or territory",g,g),g),new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.L1(!0,$.aY7,new A.aqF(h,b0),$.ey,t.PE),B.Kk,!1,!1,!1,!1,g,g),g,160),g),m,"Retirement status",g,g),g)],r),B.H,B.bx,B.K,g))
 o=$.ey===B.bV
 n=o?f:e
 m=$.c6()
@@ -91141,23 +91141,23 @@ k=$.c6().h(0,"endAge")
 k.toString
 j=h.y
 o=$.ey===B.bV?75:h.x+5
-p.push(A.dU(A.b([new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,l,g),m,n,g,g),g),new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,A.aO(A.eP(g,g,0,B.Kg,120,o,new A.aqY(h),!1,1,j),g,160),g),k,"End planning age",g,g),g)],r),B.H,B.bx,B.K,g))
+p.push(A.dU(A.b([new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,l,g),m,n,g,g),g),new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,A.aO(A.eP(g,g,0,B.Kf,120,o,new A.aqY(h),!1,1,j),g,160),g),k,"End planning age",g,g),g)],r),B.H,B.bx,B.K,g))
 if($.ey===B.bC){o=h.x
 o=o>=60&&o<70}else o=!1
 if(o){o=$.c6().h(0,"startedCPP")
 o.toString
 n=h.x>=65?160:340
-o=A.b([new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.dU(A.b([A.agL(new A.aqZ(h),h.r)],r),B.H,B.bx,B.K,g),B.Kb,!1,!1,!1,!1,g,g),g,n),g),o,"Started receiving CPP",g,g),g)],r)
+o=A.b([new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.dU(A.b([A.agL(new A.aqZ(h),h.r)],r),B.H,B.bx,B.K,g),B.Ka,!1,!1,!1,!1,g,g),g,n),g),o,"Started receiving CPP",g,g),g)],r)
 n=h.x
 if(n>=65&&n<70){n=$.c6().h(0,"startedOAS")
 n.toString
-o.push(new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.dU(A.b([A.agL(new A.ar_(h),h.w)],r),B.H,B.bx,B.K,g),B.Kf,!1,!1,!1,!1,g,g),g,160),g),n,"Started receiving OAS",g,g),g))}p.push(A.dU(o,B.H,B.bx,B.K,g))}if(h.zY()||h.zZ()){o=A.b([],r)
+o.push(new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.dU(A.b([A.agL(new A.ar_(h),h.w)],r),B.H,B.bx,B.K,g),B.Ke,!1,!1,!1,!1,g,g),g,160),g),n,"Started receiving OAS",g,g),g))}p.push(A.dU(o,B.H,B.bx,B.K,g))}if(h.zY()||h.zZ()){o=A.b([],r)
 if(h.zY()){n=$.c6().h(0,"startCPPAge")
 n.toString
 m=h.zZ()?160:340
 l=h.z
 k=$.ey===B.bV?60:h.x
-o.push(new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,A.aO(A.eP(g,g,0,B.Kk,70,k,new A.ar0(h),!1,1,l),g,m),g),n,"CPP start age",g,g),g))}if(h.zZ()){n=$.c6().h(0,"startOASAge")
+o.push(new A.e3(1,B.aQ,new A.cw(new A.aT(B.P,A.aO(A.eP(g,g,0,B.Kj,70,k,new A.ar0(h),!1,1,l),g,m),g),n,"CPP start age",g,g),g))}if(h.zZ()){n=$.c6().h(0,"startOASAge")
 n.toString
 m=h.zY()?160:340
 l=h.Q
@@ -91202,24 +91202,24 @@ k=$.rN()
 p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(a2,k,0,A.u5(g,g,g,g,g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,!1,g,g,g,$.ey===B.bC?a5:a6,g,g,g,g,g,g,g,g,g,g,g,g,g),5e7,0,new A.aqI(h),!1,a2,l),g,340),g),m,n,g,g))
 o=$.c6().h(0,"tfsaWithdrawalRate")
 o.toString
-p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(1,g,0,B.K9,100,0,new A.aqJ(h),!1,1,h.ch),g,340),g),o,"TFSA withdrawal rate",g,g))
+p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(1,g,0,B.K8,100,0,new A.aqJ(h),!1,1,h.ch),g,340),g),o,"TFSA withdrawal rate",g,g))
 o=$.c6().h(0,"rrspWithdrawalRate")
 o.toString
-p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(1,g,0,B.Ke,100,0,new A.aqK(h),!1,1,h.ay),g,340),g),o,"RRSP withdrawal rate",g,g))
+p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(1,g,0,B.Kd,100,0,new A.aqK(h),!1,1,h.ay),g,340),g),o,"RRSP withdrawal rate",g,g))
 if(h.zY()||h.zZ()){o=h.x
 o=o<h.z||o<h.Q}else o=!1
 if(o){o=$.c6().h(0,"bridgingStrategy")
 o.toString
-p.push(new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.L1(!0,$.aWh,new A.aqL(h,b0),$.aw7,t.S),B.Ki,!1,!1,!1,!1,g,g),g,340),g),o,"Bridging strategy prior to CPP/OAS start",g,g))}o=$.c6().h(0,"priceApprRate")
+p.push(new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.L1(!0,$.aWh,new A.aqL(h,b0),$.aw7,t.S),B.Kh,!1,!1,!1,!1,g,g),g,340),g),o,"Bridging strategy prior to CPP/OAS start",g,g))}o=$.c6().h(0,"priceApprRate")
 o.toString
-p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(0.1,g,2,B.Kc,6,0,new A.aqM(h),!1,0.1,h.dy),g,340),g),o,"Investment Price Appreciation Rate",g,g))
+p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(0.1,g,2,B.Kb,6,0,new A.aqM(h),!1,0.1,h.dy),g,340),g),o,"Investment Price Appreciation Rate",g,g))
 o=$.c6().h(0,"divYield")
 o.toString
-p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(0.1,g,2,B.Ko,5,0,new A.aqN(h),!1,0.1,h.fr),g,340),g),o,"Annual Dividend Yield",g,g))
+p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(0.1,g,2,B.Km,5,0,new A.aqN(h),!1,0.1,h.fr),g,340),g),o,"Annual Dividend Yield",g,g))
 o=$.c6().h(0,"reqIncome")
 o.toString
 n=h.cy
-p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(a7,$.rN(),0,B.Kh,5e5,2e4,new A.aqO(h),!1,a7,n),g,340),g),o,"Target annual income",g,g))
+p.push(new A.cw(new A.aT(B.P,A.aO(A.eP(a7,$.rN(),0,B.Kg,5e5,2e4,new A.aqO(h),!1,a7,n),g,340),g),o,"Target annual income",g,g))
 o=$.c6().h(0,"incomeWithdrawalStrategy")
 o.toString
 p.push(new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.L1(!0,$.aXv,new A.aqP(h,b0),$.xy,t.DQ),B.K6,!1,!1,!1,!1,g,g),g,340),g),o,"Income Withdrawal Strategy",g,g))
@@ -91233,7 +91233,7 @@ m=h.fy
 l=A.a2(m).j("f_<1,i>")
 B.b.ad(n,A.an(new A.f_(m,new A.aqS(h,b0),l),!0,l.j("r.E")))
 n.push(A.ia(!1,B.YM,B.m,g,g,g,g,g,new A.aqT(h,b0),g,g))
-p.push(new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.cX(n,B.H,B.I,B.K),B.Kd,!1,!1,!1,!1,g,g),g,340),g),o,"Additional Withdrawals",g,g))
+p.push(new A.cw(new A.aT(B.P,A.aO(A.ka(g,A.cX(n,B.H,B.I,B.K),B.Kc,!1,!1,!1,!1,g,g),g,340),g),o,"Additional Withdrawals",g,g))
 p.push(B.Iv)
 p.push($.aAr?A.h9(A.aO(new A.aT(B.J0,new A.A6(B.h6,$.ax2,g,g,g,"Computation progress indicator",g,g),g),30,340),g,g):A.dU(A.b([new A.e3(1,B.aQ,new A.aT(B.P,A.aO(A.cX(A.b([A.ai7(A.a6e(B.YS,g,new A.aqU(h),A.L6(g,g,A.H(b0).ax.f,g,g,g,g,g,g,B.j,g,g,g,g,g,g,g,g,g)),"Calculate using fixed investment return",-28),A.ia(!1,B.cN,B.m,g,g,g,g,g,new A.aqV(b0),g,g)],r),B.dJ,B.I,B.K),g,160),g),g),new A.e3(1,B.aQ,new A.aT(B.P,A.aO(A.cX(A.b([A.ai7(A.a6e(B.Z5,h.f,new A.aqW(h),A.L6(g,g,A.H(b0).ax.b,g,g,g,g,g,g,B.j,g,g,g,g,g,g,g,g,g)),"Explore different sequences of returns using Monte Carlo method of simulation",-28),A.ia(!1,B.cN,B.m,g,g,g,g,g,new A.aqX(b0),g,g)],r),B.dJ,B.I,B.K),g,160),g),g)],r),B.H,B.bx,B.K,g))
 p.push(B.Iy)
@@ -92203,12 +92203,12 @@ a0.toString
 s=A.H(a1)
 r=d.d
 r===$&&A.a()
-r=A.aO(A.ka(c,A.aFi(!1,A.aYr(),r,c,B.K8,c,c,c,c,c,c,c,!1,c,c,B.b9,c,c),B.Kl,!1,!1,!1,!1,c,c),c,400)
+r=A.aO(A.ka(c,A.aFi(!1,A.aYr(),r,c,B.Kn,c,c,c,c,c,c,c,!1,c,c,B.b9,c,c),B.Kp,!1,!1,!1,!1,c,c),c,400)
 q=$.c6().h(0,"annualWithdrawalAmount")
 q.toString
 p=d.w
 p===$&&A.a()
-p=A.aO(A.eP(b,$.aBt(),0,B.Kp,2e5,500,new A.am1(d),!1,b,p),c,400)
+p=A.aO(A.eP(b,$.aBt(),0,B.Ko,2e5,500,new A.am1(d),!1,b,p),c,400)
 o=$.c6().h(0,"extraWithdrawalStrategy")
 o.toString
 n=$.aXw
@@ -92224,20 +92224,20 @@ l=$.c6().h(0,"withdrawalStarts")
 l.toString
 k=d.y
 k===$&&A.a()
-k=A.aO(A.eP(1,c,0,B.Kn,50,1,new A.am4(d),!1,1,k),c,400)
+k=A.aO(A.eP(1,c,0,B.Kl,50,1,new A.am4(d),!1,1,k),c,400)
 j=$.c6().h(0,"withdrawalRepeats")
 j.toString
 i=d.Q
 i===$&&A.a()
 h=t.S
-h=A.aO(A.ka(c,new A.aT(B.J_,A.az9(new A.am5(d),B.LG,A.bQ([i],h),h),c),B.Ka,!1,!1,!1,!1,c,c),c,400)
+h=A.aO(A.ka(c,new A.aT(B.J_,A.az9(new A.am5(d),B.LG,A.bQ([i],h),h),c),B.K9,!1,!1,!1,!1,c,c),c,400)
 i=d.Q
 g=$.c6().h(0,"withdrawalForYears")
 g.toString
 f=d.z
 f===$&&A.a()
 e=t.p
-i=A.bJ(c,A.i6(new A.MJ(A.b([B.bW,new A.cw(new A.aT(B.P,r,c),a0,"Withdrawal name",s.ay,c),B.bW,new A.cw(new A.aT(B.P,p,c),q,"Annual withdrawal amount",c,c),new A.cw(new A.aT(B.P,n,c),o,"Additional Withdrawal Strategy",c,c),m,B.bW,new A.cw(new A.aT(B.P,k,c),l,"Withdrawal starts",c,c),B.bW,new A.cw(new A.aT(B.P,h,c),j,"Withdrawal repeats",c,c),B.AX,A.aFI(new A.cw(new A.aT(B.P,A.aO(A.eP(1,c,0,B.Kj,50,1,new A.am6(d),!1,1,f),c,400),c),g,"Withdrawal is made for",c,c),i===2)],e),c),c,c,B.am),B.m,B.j,c,c,c,c,c,c,c)
+i=A.bJ(c,A.i6(new A.MJ(A.b([B.bW,new A.cw(new A.aT(B.P,r,c),a0,"Withdrawal name",s.ay,c),B.bW,new A.cw(new A.aT(B.P,p,c),q,"Annual withdrawal amount",c,c),new A.cw(new A.aT(B.P,n,c),o,"Additional Withdrawal Strategy",c,c),m,B.bW,new A.cw(new A.aT(B.P,k,c),l,"Withdrawal starts",c,c),B.bW,new A.cw(new A.aT(B.P,h,c),j,"Withdrawal repeats",c,c),B.AX,A.aFI(new A.cw(new A.aT(B.P,A.aO(A.eP(1,c,0,B.Ki,50,1,new A.am6(d),!1,1,f),c,400),c),g,"Withdrawal is made for",c,c),i===2)],e),c),c,c,B.am),B.m,B.j,c,c,c,c,c,c,c)
 return A.axL(A.b([A.a6e(B.Zh,c,new A.am7(a1),A.L6(c,c,A.H(a1).ax.f,c,c,c,c,c,c,B.j,c,c,c,c,c,c,c,c,c)),B.To,A.a6e(B.Z8,c,new A.am8(d,a1),A.L6(c,c,A.H(a1).ax.b,c,c,c,c,c,c,B.j,c,c,c,c,c,c,c,c,c))],e),i,B.hq,B.lI,B.j,a,B.ah)}}
 A.am1.prototype={
 $1(a){var s=this.a
@@ -116379,29 +116379,29 @@ B.K5=new A.cZ(null,null,null,"Province or territory",null,null,null,null,null,nu
 B.K6=new A.cZ(null,null,null,"Income Withdrawal Strategy:",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
 B.K7=new A.cZ(null,null,null,"OAS start age",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.a1L=new A.cZ(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.K8=new A.cZ(null,null,null,null,null,null,null,null,null,"Travell, Present, Car purchase, etc",null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.Bj=new A.bc("Slower",null,null,null,null,null,null,null,null,null,null)
 B.Bi=new A.bc("Faster",null,null,null,null,null,null,null,null,null,null)
-B.K9=new A.cZ(null,null,null,"TFSA withdrawal rate (0-100)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,B.Bj,null,null,null,null,B.Bi,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Ka=new A.cZ(null,null,null,"Withdrawal repeats",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
-B.Kb=new A.cZ(null,null,null,"Started receiving CPP",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
+B.K8=new A.cZ(null,null,null,"TFSA withdrawal rate (0-100)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,B.Bj,null,null,null,null,B.Bi,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.K9=new A.cZ(null,null,null,"Withdrawal repeats",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
+B.Ka=new A.cZ(null,null,null,"Started receiving CPP",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
 B.YY=new A.bc("Less risk",null,null,null,null,null,null,null,null,null,null)
 B.Z7=new A.bc("More risk",null,null,null,null,null,null,null,null,null,null)
-B.Kc=new A.cZ(null,null,null,"Investment Price Appreciation Rate (adjusted to inflation)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,B.YY,null,null,null,null,B.Z7,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Kd=new A.cZ(null,null,null,"Additional withdrawals:",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
-B.Ke=new A.cZ(null,null,null,"RRSP withdrawal rate (0-100)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,B.Bj,null,null,null,null,B.Bi,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Kf=new A.cZ(null,null,null,"Started receiving OAS",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
-B.Kg=new A.cZ(null,null,null,"End planning age",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Kh=new A.cZ(null,null,null,"Target annual income (after tax)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Ki=new A.cZ(null,null,null,"Bridging strategy prior to CPP/OAS start:",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
-B.Kj=new A.cZ(null,null,null,"Withdrawal is made for (years)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Kk=new A.cZ(null,null,null,"CPP start age",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Kl=new A.cZ(null,null,null,"Withdrawal name (Go-go phase, Travell, Present, Car purchase...)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
-B.Km=new A.cZ(null,null,null,"Your retirement status:",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
-B.Kn=new A.cZ(null,null,null,"Starts from (years into retirement)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Kb=new A.cZ(null,null,null,"Investment Price Appreciation Rate (adjusted to inflation)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,B.YY,null,null,null,null,B.Z7,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Kc=new A.cZ(null,null,null,"Additional withdrawals:",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
+B.Kd=new A.cZ(null,null,null,"RRSP withdrawal rate (0-100)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,B.Bj,null,null,null,null,B.Bi,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Ke=new A.cZ(null,null,null,"Started receiving OAS",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
+B.Kf=new A.cZ(null,null,null,"End planning age",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Kg=new A.cZ(null,null,null,"Target annual income (after tax)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Kh=new A.cZ(null,null,null,"Bridging strategy prior to CPP/OAS start:",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
+B.Ki=new A.cZ(null,null,null,"Withdrawal is made for (years)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Kj=new A.cZ(null,null,null,"CPP start age",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Kk=new A.cZ(null,null,null,"Your retirement status:",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
+B.Kl=new A.cZ(null,null,null,"Starts from (years into retirement)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.p6=new A.cZ(null,null,null,"Minimal annual income (after tax)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Ko=new A.cZ(null,null,null,"Annual Dividend Yield (%0-%8)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Kp=new A.cZ(null,null,null,"Annual Withdrawal Amount",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Km=new A.cZ(null,null,null,"Annual Dividend Yield (%0-%8)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Kn=new A.cZ(null,null,null,null,null,null,null,null,null,"Travel, Present, Car purchase, etc",null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Ko=new A.cZ(null,null,null,"Annual Withdrawal Amount",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Kp=new A.cZ(null,null,null,"Withdrawal name (Go-go phase, Travel, Present, Car purchase...)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
 B.Kq=new A.cZ(null,null,null,"Additional Withdrawal Strategy:",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bM,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.bT,!0,null,null,null)
 B.hF=new A.zL(!0,null)
 B.Ks=new A.dR(1,1,B.bI)
