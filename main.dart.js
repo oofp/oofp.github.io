@@ -91584,7 +91584,7 @@ if(this.A===1){s=t.sm
 r=t.N
 B.b.a8(n,A.b([A.agn(q,B.dd,a,B.bz,"Compound price return (%)",3,new A.aqe(),new A.aqf(),s,r),A.aCJ(p,q,B.vP,a,"Annual price return (%)",0.4,p,new A.aqg(),p,new A.aqh(),s,r)],o))}if(this.A===0){s=t.sm
 r=t.N
-B.b.a8(n,A.b([A.agn(q,B.fp,a,B.bz,"Compound total return (%)",1,new A.aqi(),new A.aqj(),s,r),A.aCJ(p,q,B.fo,a,"Annual total return (%)",0.4,p,new A.aqk(),p,new A.aql(),s,r)],o))}return n},
+B.b.a8(n,A.b([A.agn(q,B.fp,a,B.bz,"Compound total return (%)",3,new A.aqi(),new A.aqj(),s,r),A.aCJ(p,q,B.fo,a,"Annual total return (%)",0.4,p,new A.aqk(),p,new A.aql(),s,r)],o))}return n},
 aak(a){var s=null,r=2500,q=t.sm,p=t.N
 return A.b([A.aEW(s,s,B.fo,B.zL,1,B.vM,s,a,s,new A.apJ(),new A.apK(),"Target",0.3,s,new A.apL(),s,q,p),A.of(r,B.M,2,B.vP,a,s,"CPP",new A.apQ(),new A.apR(),q,p),A.of(r,B.M,2,B.dd,a,s,"OAS",new A.apS(),new A.apT(),q,p),A.of(r,B.M,2,B.vK,a,s,"RRSP/RRIF",new A.apU(),new A.apV(),q,p),A.of(r,B.M,2,B.fp,a,s,"TFSA",new A.apW(),new A.apX(),q,p),A.of(r,B.M,2,B.lp,a,s,"Unreg",new A.apM(),new A.apN(),q,p),A.of(r,B.M,2,B.bT,a,s,"Unreg Divs",new A.apO(),new A.apP(),q,p)],t.h7)},
 a6_(a){var s=null,r=A.JJ("Projected Account Balances Over Time")
