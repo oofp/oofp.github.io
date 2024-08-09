@@ -91380,10 +91380,10 @@ o.toString
 p.push(new A.bD(new A.ar(B.H,A.ay(A.f0(g,A.pi(!0,$.aZK,new A.arT(h,b0),$.aCr,t.S),B.Lm,!1,!1,!1,!1,g,g),g,340),g),o,"RRSP witdrawal and OAS clawback",g,g))
 o=$.bu().h(0,"priceApprRate")
 o.toString
-p.push(new A.bD(new A.ar(B.H,A.ay(A.ds(0.1,g,2,B.Li,6,0,new A.arU(h),!1,0.1,h.fy),g,340),g),o,"Investment Price Appreciation Rate",g,g))
+p.push(new A.bD(new A.ar(B.H,A.ay(A.ds(0.1,g,2,B.Li,8,0,new A.arU(h),!1,0.1,h.fy),g,340),g),o,"Investment Price Appreciation Rate",g,g))
 o=$.bu().h(0,"divYield")
 o.toString
-p.push(new A.bD(new A.ar(B.H,A.ay(A.ds(0.1,g,2,B.Ls,6,0,new A.arV(h),!1,0.1,h.go),g,340),g),o,"Initial Dividend Yield",g,g))
+p.push(new A.bD(new A.ar(B.H,A.ay(A.ds(0.1,g,2,B.Ls,10,0,new A.arV(h),!1,0.1,h.go),g,340),g),o,"Initial Dividend Yield",g,g))
 o=$.bu().h(0,"dividendChangeSensitivity")
 o.toString
 p.push(new A.bD(new A.ar(B.H,A.ay(A.ds(1,g,0,B.L9,100,0,new A.arX(h),!1,1,h.cy),g,340),g),o,"Dividend Change Sensitivity",g,g))
