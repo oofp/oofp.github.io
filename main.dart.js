@@ -88011,10 +88011,10 @@ n=this.ah
 n=n==null?null:n.ch
 if(n===!0)B.b.S(p,A.b([A.fG(q,B.G,2,B.hM,a,!0,"","Spouse RRSP/RRIF Balance",new A.asz(),new A.asA(),s,r)],o))
 return p},
-aaR(a){var s=null,r=A.aDk("Projected RRSP/RRIF withdrawals and attributions")
+aaR(a){var s=null,r=A.aDk("Projected RRSP/RRIF Income Sharing")
 return A.ah(A.kD(!1,B.ca,s,0,A.Ld(B.df,B.bn),A.qD(B.aQ,"{value}K",B.bv,B.cf,s,s,!1,B.bs,B.bn),B.aE,B.bK,this.afg(a),r,s,A.JM(new A.ase(),new A.asf())),600,s)},
 afg(a){var s=2500,r="Withdrawal",q=B.b.axn(a,new A.atV()),p=q!==-1?B.b.e1(a,0,q+1):a,o=t.sm,n=t.N
-return A.b([A.fG(s,B.G,1,B.fX,p,!0,r,"RRSP/RRIF Withdrawal (you)",new A.atW(),new A.atX(),o,n),A.fG(s,B.G,1,B.hM,p,!0,r,"RRSP/RRIF Withdrawal (Spouse)",new A.atY(),new A.atZ(),o,n),A.fG(s,B.G,1,B.cx,p,!0,"Attr","Attributed to you",new A.au_(),new A.au0(),o,n),A.fG(s,B.G,1,B.cZ,p,!0,"Attr","Attributed to spouse",new A.au1(),new A.au2(),o,n)],t.CJ)},
+return A.b([A.fG(s,B.G,1,B.fX,p,!0,r,"Your RRSP/RRIF Withdrawal",new A.atW(),new A.atX(),o,n),A.fG(s,B.G,1,B.hM,p,!0,r,"Spouse's RRSP/RRIF Withdrawal",new A.atY(),new A.atZ(),o,n),A.fG(s,B.G,1,B.cx,p,!0,"Attr","Taxable to you",new A.au_(),new A.au0(),o,n),A.fG(s,B.G,1,B.cZ,p,!0,"Attr","Taxable to your spouse",new A.au1(),new A.au2(),o,n)],t.CJ)},
 aaF(a){return A.ah(A.kD(!1,B.ca,null,0,B.hA,B.R2,B.aE,B.bK,this.aeV(a),B.F7,null,A.JM(new A.asb(),new A.asc())),600,null)},
 aeV(a){var s=2500,r=t.sm,q=t.N
 return A.b([A.aKR(s,B.G,2,B.cx,a,!0,"After Tax Estate",0.75,new A.at6(),new A.at7(),r,q),A.aKR(s,B.er,2,B.er,a,!0,"Estate Tax",0.75,new A.at8(),new A.at9(),r,q),A.hP(s,B.nM,null,a,B.aI,"Total Estate",2,new A.ata(),new A.atb(),r,q),A.hP(s,B.nX,null,a,B.aI,"Taxable Estate",2,new A.atc(),new A.atd(this),r,q),A.hP(s,B.o6,null,a,B.aI,"Unrealized Cap Gain",2,new A.ate(),new A.atf(),r,q)],t.CJ)},
