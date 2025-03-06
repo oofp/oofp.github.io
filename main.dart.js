@@ -87779,7 +87779,7 @@ i=n.e
 if(i===B.bW||i===B.f5)k.push(new A.cc(1,B.Z,A.aD("target marginal tax rate:"+B.c.ag(n.f,2)+"%",2,B.ai,e,e,e,B.b4,e,e),e))
 if(n.z)k.push(new A.cc(1,B.Z,A.aD("RRSP meltdown enabled",2,B.ai,e,e,e,B.b4,e,e),e))
 if(!n.z)k.push(new A.cc(1,B.Z,A.aD("RRSP withdrawal rate: "+n.w+"%",2,B.ai,e,e,e,B.b4,e,e),e))
-if(n.x===1)k.push(new A.cc(1,B.Z,A.aD("use RRSP as a bridge until CPP/OAS begins",2,B.ai,e,e,e,B.b4,e,e),e))
+if(!n.z&&n.x===1)k.push(new A.cc(1,B.Z,A.aD("use RRSP as a bridge until CPP/OAS begins",2,B.ai,e,e,e,B.b4,e,e),e))
 if(n.y)k.push(new A.cc(1,B.Z,A.aD("adjust withdrawals to prevent OAS clawback",2,B.ai,e,e,e,B.b4,e,e),e))
 B.b.S(l,k)}n=t.s9
 B.b.S(m,A.b([A.kt(A.ki(e,A.ct(A.ab(new A.ad(l,A.b2X(),n),!0,n.i("aM.E")),B.br,B.C,B.x),B.ag,!1,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,f.gN6(),e,e,e),B.ci,e,e,e,e),A.Mu(e,4,e)],r))}m.push(A.et(!1,A.aD($.p6===99?"Modify Custom Strategy":"Customize Stategy",e,e,e,e,B.hh,e,e,e),e,e,B.aB,e,e,e,e,f.gN6(),e,e))
