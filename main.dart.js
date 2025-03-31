@@ -107182,11 +107182,11 @@ return new A.df(A.cl(r,B.Q,B.aa,B.a_),i.dx)},
 a9q(){return A.ak(new A.HP(0,100,101-this.bI,new A.aFM(this),20,4,!0,!0,new A.aFN(),null),null,600)},
 ez(a,b){var s=null
 return A.cg(A.a([A.ak(A.aq(a,s,s,s,s,s,B.c7,s,s),s,250),B.aWv,A.ak(A.aq(b,s,s,s,s,s,B.c7,s,s),s,80)],t.D),B.Q,B.b6,B.a_,s)},
-ao9(a){var s=2500,r=t.sm,q=t.N,p=A.a([A.aVD(B.dx,B.ra,2,A.H(51,139,195,74),a,new A.aEF(),new A.aEG(),"Target",new A.aEH(),r,q),A.lX(s,B.v8,null,a,B.eP,"Total Income",3,new A.aEP(),new A.aEQ(),r,q),A.f_(s,B.ag,2,B.HG,a,!0,"",B.at,"Tax",new A.aER(),new A.aES(),r,q)],t.CJ)
+ao9(a){var s=2500,r=t.sm,q=t.N,p=A.a([A.aVD(B.dx,B.ra,2,A.H(51,139,195,74),a,new A.aEF(),new A.aEG(),"Target",new A.aEH(),r,q),A.lX(s,B.v8,null,a,B.eP,"Gross Income",3,new A.aEP(),new A.aEQ(),r,q),A.f_(s,B.ag,2,B.HG,a,!0,"",B.at,"Tax",new A.aER(),new A.aES(),r,q)],t.CJ)
 if(B.h.f2(a,new A.aET()))p.push(A.f_(s,B.ag,2,B.qx,a,!0,"",B.at,"OAS clawback",new A.aEU(),new A.aEV(),r,q))
 if(B.h.f2(a,new A.aEW()))p.push(A.f_(s,B.D,2,B.eQ,a,!0,"",B.at,"TFSA Contrib",new A.aEI(),new A.aEJ(),r,q))
 if(B.h.f2(a,new A.aEK()))p.push(A.f_(s,B.ag,2,B.jj,a,!0,"",B.at,"Unreg Deposit",new A.aEL(),new A.aEM(),r,q))
-p.push(A.f_(s,B.ag,2,B.SS,a,!0,"",B.at,"After Tax Income",new A.aEN(),new A.aEO(),r,q))
+p.push(A.f_(s,B.ag,2,B.SS,a,!0,"",B.at,"Spending",new A.aEN(),new A.aEO(),r,q))
 return p},
 aiG(a){var s,r,q=this,p=null,o=A.aq("Investment return (adjusted to inflation, "+(q.aY?"simulation":"fixed")+")",p,p,p,p,B.e5,p,p,p),n=t.S
 n=A.aqT(new A.aDa(q),B.aLR,A.bH([q.bY],n),n)
@@ -129100,7 +129100,7 @@ B.b6C=new A.Q5(0,"start")
 B.b6D=new A.Q5(1,"end")
 B.Sd=new A.rD("Projected Estate Over Time")
 B.eH=new A.rD("")
-B.Se=new A.rD("Annual Income Before and After Taxes")
+B.Se=new A.rD("Gross income breakdown: spending, taxes, savings")
 B.Sf=new A.wx(null,null,null,null,null,null,null,null,null)
 B.iq=new A.Q7(0,"startThumbIcon")
 B.Sg=new A.CK(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
