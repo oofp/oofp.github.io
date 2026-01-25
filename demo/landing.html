@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MayRetire — Advanced Canadian Retirement Modeling</title>
+  <meta name="description" content="Take control of your retirement. MayRetire brings advanced planning capabilities to Canadian DIY families with tax-aware modeling and precision tools." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: {
+            brand: {
+              50:  "#EDE7F6", 100: "#D1C4E9", 200: "#B39DDB", 300: "#9575CD", 400: "#7E57C2",
+              500: "#673AB7", 600: "#5E35B1", 700: "#512DA8", 800: "#4527A0", 900: "#311B92"
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-white text-slate-900 antialiased font-sans selection:bg-brand-100 selection:text-brand-900">
+
+  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <a href="/" class="flex items-center gap-3 group">
+          <div class="h-9 w-9 rounded-xl bg-brand-600 flex items-center justify-center text-white shadow-sm group-hover:bg-brand-700 transition">
+            <svg class="h-5 w-5 fill-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 12V2A10 10 0 1 1 2 12Z" />
+            </svg>
+          </div>
+          <span class="font-bold tracking-tight text-slate-900 text-lg">MayRetire</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+          <a href="#features" class="hover:text-brand-700 transition">Features</a>
+          <a href="#news" class="hover:text-brand-700 transition">News</a>
+          <a href="#faq" class="hover:text-brand-700 transition">FAQ</a>
+          <a href="#privacy" class="hover:text-brand-700 transition">Privacy</a>
+          <a href="#about" class="hover:text-brand-700 transition">About</a>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="/app?auth=login" class="text-sm font-medium text-slate-600 hover:text-slate-900 transition">Log In</a>
+          <a href="/app?auth=signup" class="hidden sm:inline-flex items-center justify-center rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 transition">Start Planning</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="relative isolate pt-10 pb-12 sm:pt-16 sm:pb-16 overflow-hidden">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+        <div class="max-w-2xl">
+          <div class="inline-flex items-center gap-x-2 rounded-full bg-brand-50 px-3 py-1 text-xs font-medium text-brand-700 ring-1 ring-inset ring-brand-200 mb-6">
+            <svg class="h-3 w-3 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+            Trusted by Canadians • 7,000+ plans created
+          </div>
+          <h1 class="text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl mb-6">Take control of your <br class="hidden lg:block"/><span class="text-brand-700">retirement planning.</span></h1>
+          <p class="text-lg leading-8 text-slate-600 mb-8">Whether you rely on <span class="text-slate-900 font-semibold">RRSPs, TFSAs and government benefits</span> or manage a complex mix of <span class="text-slate-900 font-semibold">Corporate Accounts, Rentals</span>, and <span class="text-slate-900 font-semibold">Defined Benefit Pensions</span>, MayRetire brings it all together into one clear, tax-efficient plan.</p>
+          <div class="flex items-center gap-x-6">
+            <a href="/app?auth=signup" class="rounded-lg bg-brand-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-brand-50 transition">Start Planning</a>
+            <a href="#features" class="text-sm font-semibold leading-6 text-slate-900 flex items-center gap-1 group">View Capabilities <span aria-hidden="true" class="group-hover:translate-x-1 transition">→</span></a>
+          </div>
+        </div>
+        <div class="relative"><img src="./assets/account_balances.png" alt="MayRetire Balance Chart" class="w-full rounded-xl shadow-2xl border border-slate-200" /></div>
+      </div>
+    </div>
+
+    <section id="features" class="py-24 sm:py-32 border-t border-slate-200">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:text-center">
+          <h2 class="text-base font-semibold text-brand-600">Intuitive by Design</h2>
+          <p class="mt-2 text-3xl font-bold text-slate-900 sm:text-4xl">Minimal input. Maximum clarity.</p>
+          <p class="mt-6 text-lg text-slate-600">You don't need a tool to babysit your grocery bills; you need a straightforward look at your future. MayRetire cuts out the busywork, focusing on your <strong class="font-semibold text-slate-900">income and assets</strong> to give you a clear, honest answer in minutes.</p>
+        </div>
+        <div class="mx-auto mt-16 max-w-2xl lg:max-w-none">
+          <dl class="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-3">
+            <div class="flex flex-col">
+              <dt class="flex items-center gap-x-3 font-semibold text-slate-900">
+                <svg class="h-5 w-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" /></svg>
+                Complete Income Modeling
+              </dt>
+              <dd class="mt-4 text-sm text-slate-600 leading-7">See your whole financial picture. Model standard accounts (RRSP, TFSA, Non-Registered) alongside complex assets like Corp Investment Accounts and Rental Properties. Layer in diverse income streams—from Defined Benefit Pensions and employment to annuities and one-time events like inheritance or property sales.</dd>
+            </div>
+            <div class="flex flex-col">
+              <dt class="flex items-center gap-x-3 font-semibold text-slate-900">
+                <svg class="h-5 w-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" /></svg>
+                Strategic Withdrawal Control
+              </dt>
+              <dd class="mt-4 text-sm text-slate-600 leading-7">Take full control of your decumulation. Compare strategies to find your optimal balance between income safety and estate preservation. Model RRSP Meltdowns, Pension Splitting, and OAS/GIS interactions to build a plan that fits your priorities, not just a default algorithm.</dd>
+            </div>
+            <div class="flex flex-col">
+              <dt class="flex items-center gap-x-3 font-semibold text-slate-900">
+                <svg class="h-5 w-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
+                Risk & Reality Testing
+              </dt>
+              <dd class="mt-4 text-sm text-slate-600 leading-7">Averages can be misleading. Stress-test your plan using Monte Carlo simulations and historical Backtesting to see your true success rate. Includes a crucial Survivor Safety Check to ensure the remaining spouse is financially protected if either partner passes away early.</dd>
+            </div>
+            <div class="flex flex-col">
+              <dt class="flex items-center gap-x-3 font-semibold text-slate-900">
+                <svg class="h-5 w-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                Flexible Spending Stages
+              </dt>
+              <dd class="mt-4 text-sm text-slate-600 leading-7">Retirement isn't a flat line. Model your 'Go-Go' active years, one-time expenses (like a car purchase or wedding), and use Variable Spending Ranges to automatically adjust withdrawals during market downturns, mitigating sequence of return risk.</dd>
+            </div>
+            <div class="flex flex-col">
+              <dt class="flex items-center gap-x-3 font-semibold text-slate-900">
+                <svg class="h-5 w-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" /></svg>
+                Professional Standards
+              </dt>
+              <dd class="mt-4 text-sm text-slate-600 leading-7">Built on FP Canada Guidelines for projected returns and volatility. Define distinct asset allocations per account (RRSP, TFSA, Non-Registered, Corp) for precise modeling. Compare up to 5 different scenarios side-by-side to see how strategic changes impact your estate value decades from now.</dd>
+            </div>
+            <div class="flex flex-col">
+              <dt class="flex items-center gap-x-3 font-semibold text-slate-900">
+                <svg class="h-5 w-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" /></svg>
+                Private & Portable
+              </dt>
+              <dd class="mt-4 text-sm text-slate-600 leading-7">Your financial data belongs to you. Save plans locally to your device or your own private cloud (Dropbox/Drive). Export everything to Excel or PDF to share with your family, retirement buddies, or even your advisor.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-slate-200 bg-slate-50 py-12">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <h2 class="text-center text-sm font-semibold text-brand-700 tracking-wide uppercase mb-10">Feedback from actual MayRetire users</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"><p class="text-sm text-slate-700 leading-relaxed">"Easily the best tool I've tried. As a software developer, I appreciate the single-page design—it's the right choice. Data entry for assets and income is simple, efficient, and surprisingly complete."</p></div>
+          <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"><p class="text-sm text-slate-700 leading-relaxed">"Simple to use but feature-complete. I've maintained a complex Excel sheet for years, and MayRetire completely blows it out of the water."</p></div>
+          <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"><p class="text-sm text-slate-700 leading-relaxed">"Finally, a tool that assumes you're smart enough to understand your own portfolio. It lets you focus on tweaking scenarios to see the impact immediately. Awesome."</p></div>
+          <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"><p class="text-sm text-slate-700 leading-relaxed">"I've been using the platform for months and it's fantastic. I recently discovered the 'backtest' feature... wow! It adds a whole new layer of confidence."</p></div>
+          <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"><p class="text-sm text-slate-700 leading-relaxed">"Loving the platform so far. It's clear a lot of hard work and thought has gone into building this for Canadians."</p></div>
+          <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"><p class="text-sm text-slate-700 leading-relaxed">"Quickest and most straightforward tool I've used. Gives a great high-level look to see if you're on the right track before moving to a plan with a financial advisor."</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="py-24 sm:py-32 bg-white">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:mx-0">
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Latest Updates</h2>
+          <p class="mt-4 text-lg text-slate-600">We are constantly improving MayRetire based on feedback from the community.</p>
+        </div>
+        <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-8 border-t border-slate-200 pt-10 sm:mt-12 sm:pt-12 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          
+          <article class="flex max-w-xl flex-col items-start justify-between bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+            <div class="flex items-center gap-x-4 text-xs">
+              <time datetime="2026-01-22" class="text-slate-500">Jan 22, 2026</time>
+              <span class="relative z-10 rounded-full bg-brand-50 px-3 py-1.5 font-medium text-brand-600 hover:bg-brand-100">New Feature</span>
+            </div>
+            <div class="group relative">
+              <h3 class="mt-3 text-lg font-semibold leading-6 text-slate-900 group-hover:text-slate-600">
+                Check Survivor Safety
+              </h3>
+              <p class="mt-5 line-clamp-3 text-sm leading-6 text-slate-600">
+                MayRetire now allows you to visualize the financial impact of an early death, helping you ensure the surviving spouse’s retirement plan remains secure.
+              </p>
+            </div>
+          </article>
+
+          <article class="flex max-w-xl flex-col items-start justify-between bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+            <div class="flex items-center gap-x-4 text-xs">
+              <time datetime="2025-11-04" class="text-slate-500">Nov 04, 2025</time>
+              <span class="relative z-10 rounded-full bg-brand-50 px-3 py-1.5 font-medium text-brand-600 hover:bg-brand-100">Media</span>
+            </div>
+            <div class="group relative">
+              <h3 class="mt-3 text-lg font-semibold leading-6 text-slate-900 group-hover:text-slate-600">
+                MayRetire Featured on cutthecrapinvesting
+              </h3>
+              <p class="mt-5 line-clamp-3 text-sm leading-6 text-slate-600">
+                Dale Roberts uses MayRetire to model a comprehensive retirement strategy, demonstrating how to achieve a $110,000 annual retirement income. <a href="https://cutthecrapinvesting.com/2025/11/04/how-much-do-they-need-to-save-and-invest-to-retire-with-110000-annual-income/" target="_blank" class="text-brand-600 font-semibold hover:underline">Read the full article here</a>.
+              </p>
+            </div>
+          </article>
+
+          <article class="flex max-w-xl flex-col items-start justify-between bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+            <div class="flex items-center gap-x-4 text-xs">
+              <time datetime="2026-01-20" class="text-slate-500">Jan 20, 2026</time>
+              <span class="relative z-10 rounded-full bg-slate-50 px-3 py-1.5 font-medium text-slate-600 hover:bg-slate-100">Improvement</span>
+            </div>
+            <div class="group relative">
+              <h3 class="mt-3 text-lg font-semibold leading-6 text-slate-900 group-hover:text-slate-600">
+                Declutter your Detailed Projections view
+              </h3>
+              <p class="mt-5 line-clamp-3 text-sm leading-6 text-slate-600">
+                The Detailed Projections Table presents a wealth of data, but we know it can be cumbersome. Based on feedback, we added an option to show/hide specific column groups, allowing you to focus strictly on relevant data.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-24 sm:py-32 bg-slate-50">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl mb-16 text-center">Frequently Asked Questions</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-16">
+          <div>
+            <h3 class="text-sm font-bold text-brand-700 uppercase tracking-widest mb-8 border-b pb-2">General & Security</h3>
+            <dl class="space-y-10">
+              <div><dt class="font-semibold text-slate-900">Is MayRetire designed specifically for Canadians?</dt><dd class="mt-3 text-sm text-slate-600">Yes. MayRetire is built specifically for the Canadian tax system. It accurately handles RRSPs, TFSAs, CPP, OAS, and calculates provincial income taxes based on your specific province of residence.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Is my financial data private? Where is it saved?</dt><dd class="mt-3 text-sm text-slate-600">Your privacy is our priority. MayRetire operates as a "local-first" tool. You can save your plan files locally to your computer or your own private cloud (like Dropbox or Google Drive). We do not store your financial history on our servers. All computations are done locally in your browser.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Do I need to link my bank accounts or provide financial statements?</dt><dd class="mt-3 text-sm text-slate-600">No. You do not need to connect your bank accounts or provide any statements. You simply enter your current balances and estimates. This ensures your security and simplifies the setup process.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Is this a substitute for a financial advisor?</dt><dd class="mt-3 text-sm text-slate-600">MayRetire is designed for both DIY investors and those working with professionals. It serves as a comprehensive planning tool if you manage your own retirement plan, or as an independent "second opinion" to verify strategies if you work with an advisor.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Can I export my plan?</dt><dd class="mt-3 text-sm text-slate-600">Yes. You can export your full plan and data to Excel or PDF. This allows you to save a hard copy for your records or share it directly with your financial planner for review.</dd></div>
+            </dl>
+            <h3 class="text-sm font-bold text-brand-700 uppercase tracking-widest mt-16 mb-8 border-b pb-2">Stress Testing & Analysis</h3>
+            <dl class="space-y-10">
+              <div><dt class="font-semibold text-slate-900">Can I compare different plans side-by-side?</dt><dd class="mt-3 text-sm text-slate-600">Yes. You don't have to guess. Compare up to 5 different scenarios side-by-side to see how changes—like delaying CPP, retiring a year later or tweaking your RRSP withdrawal strategy —impact your final estate value or annual income.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Can I simulate a market crash (Monte Carlo)?</dt><dd class="mt-3 text-sm text-slate-600">Yes. Averages can be misleading. You can use Monte Carlo simulations and "Sequence of Returns" testing to see how your plan survives if the market drops right after you retire.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Can I test my plan against history (Backtesting)?</dt><dd class="mt-3 text-sm text-slate-600">Yes. MayRetire allows you to stress-test your withdrawal strategy against historical market data (Backtesting) to see if your plan would have survived past real-world economic cycles.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Does it include a "Survivor Safety Check"?</dt><dd class="mt-3 text-sm text-slate-600">Yes. Plans often fail when one spouse passes away early. You can stress-test the "Survivor Scenario" to ensure the remaining spouse is protected, accounting for the loss of one’s OAS and reduced total CPP and the shift to a single tax filer.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Can I plan as a couple?</dt><dd class="mt-3 text-sm text-slate-600">Yes. MayRetire is designed for both individuals and couples. It tracks separate accounts for each partner and automatically applies income-splitting logic—such as Pension Income Splitting and CPP sharing —to minimize your combined household tax. You can also set different life expectancies for each spouse to ensure the survivor’s retirement remains secure throughout their entire lifetime.</dd></div>
+              <div><dt class="font-semibold text-slate-900">How do I decide what investment returns to use?</dt><dd class="mt-3 text-sm text-slate-600">You can input your own assumptions, but MayRetire also includes FP Canada Projection Guidelines. This provides professional, data-driven benchmarks for returns and volatility so you aren't guessing.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Does it account for inflation? Can I override it?</dt><dd class="mt-3 text-sm text-slate-600">Yes. The tool calculates everything in "real dollars" (today's purchasing power). However, you have full control to override the inflation assumptions to test how high-inflation periods affect your specific plan.</dd></div>
+            </dl>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-brand-700 uppercase tracking-widest mb-8 border-b pb-2">Income, Spending & Assets</h3>
+            <dl class="space-y-10">
+              <div><dt class="font-semibold text-slate-900">Can I model different retirement stages (Go-Go, Slow-Go)?</dt><dd class="mt-3 text-sm text-slate-600">Yes. You aren't stuck with a flat spending number. You can use "Additional Withdrawals" to model higher discretionary spending in your active early years ("Go-Go" phase), or to plan for increased care expenses in the later stages of life.</dd></div>
+              <div><dt class="font-semibold text-slate-900">How do I handle one-time expenses like a car or wedding?</dt><dd class="mt-3 text-sm text-slate-600">Simple. You can add specific "one-off" spending events. Just set the amount and the specific year (e.g., "New Car in 2030") using the Additional Withdrawals feature, and the tool calculates the tax impact of that extra lump-sum withdrawal.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Can I include extra income like part-time work, annuity or inheritance?</dt><dd class="mt-3 text-sm text-slate-600">Yes. You can layer in diverse income streams beyond pensions. Add "Additional Income" items for consulting work, a private annuity, or a future inheritance, specifying exactly when they start and end.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Can I model complex assets like Rentals or a Corporation?</dt><dd class="mt-3 text-sm text-slate-600">Yes. You can input diverse income streams. For business owners, the tool supports Eligible, Non-Eligible, and Capital Dividends to optimize your corporate withdrawals. For real estate investors, you can model ongoing rental income (or shortfalls) and automatically calculate the tax impact of selling the property later in retirement.</dd></div>
+              <div><dt class="font-semibold text-slate-900">How are distributions from Unregistered Accounts taxed?</dt><dd class="mt-3 text-sm text-slate-600">MayRetire treats proceeds based on the asset class. It distinguishes between Interest (from Cash and Fixed Income), Eligible Dividends (Canadian equities), and Foreign Income (US, International, and Emerging equities) to ensure your projected tax bill reflects reality.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Can I include debts like a mortgage?</dt><dd class="mt-3 text-sm text-slate-600">Yes. If the mortgage is for a rental property, it is handled within the Rental section so the interest correctly reduces your tax bill. For personal debts, you can configure payments as "Additional Withdrawals" to ensure your plan covers these obligations.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Can I set different asset allocations per account?</dt><dd class="mt-3 text-sm text-slate-600">Yes. You have granular control. You can define distinct growth rates and risk profiles for each account type. For example, you can model a conservative allocation for your RRIF while maintaining a more aggressive strategy for your TFSA.</dd></div>
+            </dl>
+            <h3 class="text-sm font-bold text-brand-700 uppercase tracking-widest mt-16 mb-8 border-b pb-2">Strategy & Optimization</h3>
+            <dl class="space-y-10">
+              <div><dt class="font-semibold text-slate-900">Does it support variable spending strategies?</dt><dd class="mt-3 text-sm text-slate-600">Yes. Rigid plans often fail. You can set a Target Income and enable Variable Withdrawals by defining a Minimum income "floor." If the market performs poorly, the tool simulates adjusting your spending down to that minimum to preserve your portfolio, just like you would in real life.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Does MayRetire allow for TFSA funding during retirement?</dt><dd class="mt-3 text-sm text-slate-600">Yes. You can enable "TFSA Funding" to automatically increase your withdrawal target by your annual contribution limit whenever possible. Additionally, if a strategy like an RRSP Meltdown generates excess cash, MayRetire intelligently models filling your available TFSA room first before depositing any remaining surplus into your unregistered account.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Does MayRetire support an "RRSP Meltdown" strategy?</dt><dd class="mt-3 text-sm text-slate-600">Yes. MayRetire supports an RRSP Meltdown, allowing for strategic withdrawals from your RRSP/RRIF that go beyond your basic income needs. This strategy helps smooth out your lifetime tax rate, reduces the final tax bill for your estate, and helps avoid the OAS clawback. You maintain full control by limiting these withdrawals based on a specific target tax rate (average or marginal) or other custom parameters.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Does the tool optimize for OAS Clawback?</dt><dd class="mt-3 text-sm text-slate-600">Yes. You can enable settings like "adjust withdrawals to prevent OAS clawback". The tool will attempt to keep your net income below the recovery tax threshold to preserve your Old Age Security benefits.</dd></div>
+              <div><dt class="font-semibold text-slate-900">Can I optimize my CPP and OAS start dates?</dt><dd class="mt-3 text-sm text-slate-600">Yes. You can model different start ages (e.g., 60 vs 65 vs 70) to see how deferring benefits affects your long-term income and immediate cash flow.</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="relative overflow-hidden bg-slate-900 py-24 sm:py-32">
+      <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="max-w-2xl lg:mx-0"><h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">The Privacy Promise</h2><p class="mt-6 text-lg leading-8 text-slate-300">Many financial tools monetize your data by selling leads to wealth advisors. We don't. MayRetire is built on a <span class="text-white font-semibold">Local-First Architecture</span>.</p></div>
+        <div class="mx-auto mt-16 grid grid-cols-1 gap-6 lg:grid-cols-3">
+          <div class="rounded-xl bg-white/5 p-6 ring-1 ring-white/10"><h3 class="font-semibold text-white">Browser-Based Storage</h3><p class="mt-2 text-slate-400 text-sm">Your financial inputs are stored in `localStorage` on your own device. We do not have a database of your net worth.</p></div>
+          <div class="rounded-xl bg-white/5 p-6 ring-1 ring-white/10"><h3 class="font-semibold text-white">No Ad Targeting</h3><p class="mt-2 text-slate-400 text-sm">No Facebook Pixel. We don't share your portfolio size with ad networks.</p></div>
+          <div class="rounded-xl bg-white/5 p-6 ring-1 ring-white/10"><h3 class="font-semibold text-white">Export Anytime</h3><p class="mt-2 text-slate-400 text-sm">Since you own the data, you can export your plan to JSON or CSV at any time for your own backups.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-24 sm:py-32 bg-slate-50 border-t border-slate-200">
+      <div class="mx-auto max-w-3xl px-6 lg:px-8">
+        <h2 class="text-2xl font-bold text-slate-900 mb-8 border-b pb-4 text-center">About MayRetire</h2>
+        <div class="text-lg text-slate-600 space-y-6 text-justify leading-relaxed">
+          <p>
+            MayRetire started as a personal project. I was frustrated with the options for Canadian retirement planning: clunky government calculators, overly simple estimates, or complex tools that required hours of work before seeing even initial results.
+          </p>
+          <p>
+            I spent hours watching videos from leading Canadian planners and simply couldn't comprehend why even basic planning services start at $3,000–$4,000. When I attempted retirement planning at one of the big Canadian banks, it was a disappointment. When I asked which account I should withdraw from first to be tax-efficient, the answer was: <i>"To answer that, you need to talk to your accountant."</i>
+          </p>
+          <p>
+            I decided to build a better way. What began as a tool for our own family has evolved into a platform trusted by thousands of Canadians to make confident, data-backed decisions about their future.
+          </p>
+          <p>
+            Now, MayRetire is improving rapidly, driven almost entirely by the feedback and suggestions of our users. And this is just the beginning.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-brand-700">
+      <div class="px-6 py-24 sm:py-32 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold text-white sm:text-4xl">Ready to model your future?</h2>
+        <p class="mt-6 text-lg text-brand-100">Join thousands of fellow Canadians taking control of their retirement data.</p>
+        <div class="mt-10 flex justify-center"><a href="/app?auth=signup" class="rounded-lg bg-white px-5 py-3 text-sm font-semibold text-brand-600 shadow-sm hover:bg-brand-50 transition">Start Planning</a></div>
+      </div>
+    </section>
+  </main>
+
+<footer class="bg-white border-t border-slate-200">
+  <div class="mx-auto max-w-7xl px-6 py-12">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between lg:px-8 text-sm font-medium text-slate-600">
+      <div class="md:order-1 text-center md:text-left">
+        <p class="text-xs text-slate-500">&copy; <span id="year"></span> MayRetire. All rights reserved.</p>
+      </div>
+
+      <div class="mt-4 md:mt-0 md:order-2 text-center text-slate-900 font-semibold">
+        Contact us: support@mayretire.com
+      </div>
+
+      <div class="mt-4 md:mt-0 md:order-3 flex justify-center space-x-6">
+        <button onclick="toggleModal('terms-modal', true)" class="hover:text-brand-700 transition">Terms</button>
+        <button onclick="toggleModal('privacy-modal', true)" class="hover:text-brand-700 transition">Privacy Policy</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <div id="terms-modal" class="fixed inset-0 z-[100] hidden bg-slate-900/50 backdrop-blur-sm transition-opacity" role="dialog" aria-modal="true">
+    <div class="flex min-h-full items-center justify-center p-4">
+      <div class="relative w-full max-w-2xl bg-white rounded-2xl p-6 sm:p-10 shadow-2xl overflow-hidden">
+        <h3 class="text-xl font-bold text-slate-900 mb-6">Terms of Use & Privacy Policy</h3>
+        <div class="max-h-[60vh] overflow-y-auto text-sm text-slate-600 space-y-6 pr-4">
+          <section><h4 class="font-bold text-slate-900 mb-2">1. Usage and Licensing</h4><p>MayRetire is provided for personal use. While we encourage users to assist others (such as friends or family) on a voluntary and non-compensated basis, any commercial use—including using the tool to provide paid services—requires the explicit, written, and documented permission of MayRetire.</p></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">2. No Professional Advice</h4><p>MayRetire is a mathematical modeling tool, not a financial advisor. It is designed for both DIY investors who manage their own retirement plans and those who wish to verify strategies as an independent "second opinion."</p><ul class="list-disc pl-5 mt-2 space-y-1"><li><strong>Not Financial Advice:</strong> Use of this tool does not create a fiduciary or advisory relationship.</li><li><strong>Consult a Professional:</strong> All projections are estimates based on your specific inputs. You should consult with a qualified professional before making significant financial decisions.</li></ul></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">3. Accuracy & "As-Is" Provision</h4><p>While every effort is made to ensure the correctness of calculations and tax logic (including RRSP/RRIF rules and CPP/OAS estimates), errors and omissions are possible.</p><ul class="list-disc pl-5 mt-2 space-y-1"><li><strong>No Warranty:</strong> MayRetire is provided on an "As-Is" basis without any warranties of any kind, express or implied.</li><li><strong>User Responsibility:</strong> You are responsible for verifying the validity of your inputs and the reasonableness of the generated results.</li></ul></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">4. Limitation of Liability</h4><p>Use of MayRetire is strictly at your own risk. To the maximum extent permitted by law, MayRetire shall not be liable for any damages resulting from your use of the tool, including financial losses, tax projection errors, or data loss.</p></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">5. Privacy, Data & Authentication</h4><p>MayRetire is a "local-first" application designed with privacy in mind.</p><ul class="list-disc pl-5 mt-2 space-y-1"><li><strong>Authentication:</strong> User authentication and secure sign-in services are handled using Google Firebase. Your credentials are managed by Google and are not stored directly by MayRetire.</li><li><strong>Data Storage:</strong> Consistent with our Privacy Promise, your detailed financial data is processed locally in your browser. You are solely responsible for the security and backup of any plan files saved to your local device or private cloud.</li><li><strong>Analytics:</strong> MayRetire may use Google Analytics (and similar tools) to collect anonymous usage statistics to help us improve the tool’s performance and user experience.</li></ul></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">6. Evolution of Terms</h4><p>These terms are likely to evolve as MayRetire grows and new features are added. By continuing to use the service, you acknowledge and agree to the most current version of these terms.</p></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">7. Governing Law</h4><p>These terms are governed by the laws of the Province of Ontario and the federal laws of Canada applicable therein.</p></section>
+        </div>
+        <div class="mt-8 flex justify-end"><button onclick="toggleModal('terms-modal', false)" class="px-4 py-2 bg-slate-900 text-white rounded-lg font-semibold hover:bg-slate-800 transition">Close</button></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="privacy-modal" class="fixed inset-0 z-[100] hidden bg-slate-900/50 backdrop-blur-sm transition-opacity" role="dialog" aria-modal="true">
+    <div class="flex min-h-full items-center justify-center p-4">
+      <div class="relative w-full max-w-2xl bg-white rounded-2xl p-6 sm:p-10 shadow-2xl overflow-hidden">
+        <h3 class="text-xl font-bold text-slate-900 mb-6">Privacy Policy</h3>
+        <div class="max-h-[60vh] overflow-y-auto text-sm text-slate-600 space-y-6 pr-4">
+          <section><h4 class="font-bold text-slate-900 mb-2">1. Our Privacy Philosophy</h4><p>As outlined in our Privacy Promise, MayRetire is built on a Local-First Architecture. We believe your financial data should belong to you, not be stored on a corporate database for monetization.</p></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">2. Data Collection & Usage</h4><ul class="list-disc pl-5 space-y-3"><li><strong>Financial Data:</strong> All detailed financial inputs (assets, income, expenses) are processed and stored locally within your browser's storage. MayRetire does not have access to your net worth or specific financial plan details.</li><li><strong>Authentication Data:</strong> We use Google Firebase to manage user sign-in. When you create an account, Google manages your login credentials. MayRetire only receives the necessary tokens to recognize your authenticated session.</li><li><strong>Usage Analytics:</strong> We use Google Analytics (and other similar tools) to collect anonymous, aggregated data (such as which features are most used and general geographic location). This helps us improve the tool’s performance and prioritize new features. We do not share your individual portfolio size or specific plans with ad networks.</li></ul></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">3. Data Storage and Portability</h4><ul class="list-disc pl-5 space-y-3"><li><strong>Local Storage:</strong> Because your data stays on your device, it is your responsibility to manage and secure your browser environment.</li><li><strong>Exports:</strong> You can export your retirement plan to JSON or CSV formats at any time for your own off-site backups or to move your data to another device.</li><li><strong>Deletion:</strong> Since data is stored locally, clearing your browser cache or deleting your local storage will remove your data from that device.</li></ul></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">4. Third-Party Services</h4><p>MayRetire integrates with trusted third-party providers to function:</p><ul class="list-disc pl-5 mt-2 space-y-1"><li><strong>Google Firebase:</strong> For secure authentication.</li><li><strong>Google Analytics:</strong> For anonymous usage statistics. These services (and other similar tools we may use) have their own privacy policies which govern how they handle the data they receive.</li></ul></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">5. Updates to this Policy</h4><p>We may update this Privacy Policy from time to time to reflect changes in our practices or service offerings. We encourage you to review this page periodically.</p></section>
+          <section><h4 class="font-bold text-slate-900 mb-2">6. Contact</h4><p>If you have questions regarding our privacy practices, please contact us through the official MayRetire communication channels.</p></section>
+        </div>
+        <div class="mt-8 flex justify-end"><button onclick="toggleModal('privacy-modal', false)" class="px-4 py-2 bg-slate-900 text-white rounded-lg font-semibold hover:bg-slate-800 transition">Close</button></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    function toggleModal(id, show) {
+      const modal = document.getElementById(id);
+      modal.classList.toggle('hidden', !show);
+      document.body.style.overflow = show ? 'hidden' : '';
+    }
+    window.onclick = function(event) {
+      if (event.target.classList.contains('bg-slate-900/50')) {
+        toggleModal('terms-modal', false); toggleModal('privacy-modal', false);
+      }
+    }
+  </script>
+</body>
+</html>
